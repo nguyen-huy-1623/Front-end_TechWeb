@@ -8,7 +8,7 @@ const Container = styled.div`
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://images.pexels.com/photos/6984650/pexels-photo-6984650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    url("https://i.ibb.co/5xGjbCf/pexels-hasan-albari-1229861.png")
       center;
   background-size: cover;
   display: flex;
@@ -61,13 +61,13 @@ const Login = () => {
   return (
     <Container>
       <Wrapper>
-        <Title>SIGN IN</Title>
+        <Title>ĐĂNG NHẬP</Title>
         <Form>
-          <Input placeholder="username" />
-          <Input placeholder="password" />
-          <Button>LOGIN</Button>
-          <Link>DO NOT YOU REMEMBER THE PASSWORD?</Link>
-          <Link>CREATE A NEW ACCOUNT</Link>
+          <Input placeholder="Email" />
+          <Input placeholder="Mật khẩu" />
+          <Button>ĐĂNG NHẬP</Button>
+          <Link>BẠN KHÔNG NHỚ MẬT KHẨU?</Link>
+          <Link>TẠO TÀI KHOẢN MỚI</Link>
         </Form>
       </Wrapper>
     </Container>

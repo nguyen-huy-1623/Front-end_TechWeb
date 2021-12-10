@@ -116,11 +116,10 @@ const Footer = () => {
         </SocialContainer>
       </Left>
       <Center>
-        <Title>Đừng dẫn hữu ích</Title>
+        <Title>Đường dẫn hữu ích</Title>
         <List>
           <ListItem>Trang chủ</ListItem>
           <ListItem>Giỏ hàng</ListItem>
-<<<<<<< HEAD
           <ListItem>Đăng ký</ListItem>
           <ListItem>Đăng nhập</ListItem>
           <ListItem>Macbook</ListItem>
@@ -134,20 +133,6 @@ const Footer = () => {
         <ContactItem>
           <Room style={{ marginRight: "10px" }} />
           14/08 Cách Mạng Tháng 8, TP. Hồ Chí Minh
-=======
-          <ListItem>Điện thoại</ListItem>
-          <ListItem>Laptop</ListItem>
-          <ListItem>Tài khoản</ListItem>
-          <ListItem>Theo dõi đơn hàng</ListItem>
-          <ListItem>Yêu thích</ListItem>
-          <ListItem>Terms</ListItem>
-        </List>
-      </Center>
-      <Right>
-        <Title>Liên hệ</Title>
-        <ContactItem>
-          <Room style={{marginRight:"10px"}}/> Khu phố 6, phường Linh Trung, thành phố Thủ Đức, TP.HCM
->>>>>>> cf05af35f25b40ab54c73098b02704c3c42735e2
         </ContactItem>
         <ContactItem>
           <Phone style={{ marginRight: "10px" }} /> +889 247 889
@@ -156,7 +141,7 @@ const Footer = () => {
           <MailOutline style={{ marginRight: "10px" }} /> musetech@gmail.com
         </ContactItem>
         <Thankful>
-          <Favorite style={{ marginRight: "10px" }}/> Trân thành cảm ơn quý khách
+          <Favorite style={{ marginRight: "10px" }}/> Chân thành cảm ơn quý khách
         </Thankful>
       </Right>
     </Container>

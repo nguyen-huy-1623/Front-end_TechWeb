@@ -8,7 +8,7 @@ const Container = styled.div`
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://images.pexels.com/photos/6984661/pexels-photo-6984661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    url("https://i.ibb.co/gdTPC7c/pexels-jessica-lynn-lewis-583842.png")
       center;
   background-size: cover;
   display: flex;
@@ -49,7 +49,7 @@ const Button = styled.button`
   width: 40%;
   border: none;
   padding: 15px 20px;
-  background-color: teal;
+  background-color: crimson;
   color: white;
   cursor: pointer;
 `;
@@ -58,19 +58,19 @@ const Register = () => {
   return (
     <Container>
       <Wrapper>
-        <Title>CREATE AN ACCOUNT</Title>
+        <Title>ĐĂNG KÝ TÀI KHOẢN</Title>
         <Form>
-          <Input placeholder="name" />
-          <Input placeholder="last name" />
-          <Input placeholder="username" />
-          <Input placeholder="email" />
-          <Input placeholder="password" />
-          <Input placeholder="confirm password" />
+          <Input placeholder="Họ tên" />
+          {/* <Input placeholder="last name" /> */}
+          {/* <Input placeholder="username" /> */}
+          <Input placeholder="Email" />
+          <Input placeholder="Mật khẩu" />
+          {/* <Input placeholder="confirm password" /> */}
+          <Input placeholder="Điện thoại"/>
           <Agreement>
-            By creating an account, I consent to the processing of my personal
-            data in accordance with the <b>PRIVACY POLICY</b>
+            Bằng việc đăng ký, bạn đã đồng ý với chúng tôi về <b>CHÍNH SÁCH BẢO MẬT</b>
           </Agreement>
-          <Button>CREATE</Button>
+          <Button>ĐĂNG KÝ</Button>
         </Form>
       </Wrapper>
     </Container>
