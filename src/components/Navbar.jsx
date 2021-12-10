@@ -24,7 +24,7 @@ const Left = styled.div`
   align-items: center;
 `;
 
-const Language = styled.span`
+const Region = styled.span`
   font-size: 14px;
   color: crimson;
   cursor: pointer;
@@ -74,7 +74,7 @@ const Navbar = () => {
     <Container>
       <Wrapper>
         <Left>
-          <Language>EN</Language>
+          <Region>VN</Region>
           <SearchContainer>
             <Input placeholder="Search" />
             <Search style={{ color: "gray", fontSize: 16 }} />

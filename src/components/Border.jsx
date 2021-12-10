@@ -11,8 +11,8 @@ const Container = styled.div`
   font-weight: 500;
 `;
 
-const Announcement = () => {
+const Border = () => {
   return <Container></Container>;
 };
 
-export default Announcement;
+export default Border;

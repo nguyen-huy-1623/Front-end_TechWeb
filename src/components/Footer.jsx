@@ -1,5 +1,6 @@
 import {
   Facebook,
+  Favorite,
   Instagram,
   MailOutline,
   Phone,
@@ -71,7 +72,6 @@ const Right = styled.div`
   flex: 1;
   padding: 20px;
   ${mobile({ backgroundColor: "#fff8f8" })}
-
 `;
 
 const ContactItem = styled.div`
@@ -80,19 +80,25 @@ const ContactItem = styled.div`
   align-items: center;
 `;
 
+const Thankful = styled.div`
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+`;
+
 const Payment = styled.img`
-    width: 50%;
+  width: 50%;
 `;
 
 const Footer = () => {
   return (
-    <Container>
+    <Container> 
       <Left>
-        <Logo>LAMA.</Logo>
+        <Logo>MuseTech</Logo>
         <Desc>
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injected
-          humour, or randomised words which don’t look even slightly believable.
+          Với mục tiêu hướng tới các bạn trẻ hiện nay, MuseTech đem lại các sản
+          phẩm chất lượng với giá cả cực kỳ hợp lý, phù hợp với nhu cầu sinh
+          viên Việt Nam trong thời kỳ hiện đại.
         </Desc>
         <SocialContainer>
           <SocialIcon color="3B5999">
@@ -110,32 +116,33 @@ const Footer = () => {
         </SocialContainer>
       </Left>
       <Center>
-        <Title>Useful Links</Title>
+        <Title>Đừng dẫn hữu ích</Title>
         <List>
-          <ListItem>Home</ListItem>
-          <ListItem>Cart</ListItem>
-          <ListItem>Man Fashion</ListItem>
-          <ListItem>Woman Fashion</ListItem>
-          <ListItem>Accessories</ListItem>
-          <ListItem>My Account</ListItem>
-          <ListItem>Order Tracking</ListItem>
-          <ListItem>Wishlist</ListItem>
-          <ListItem>Wishlist</ListItem>
-          <ListItem>Terms</ListItem>
+          <ListItem>Trang chủ</ListItem>
+          <ListItem>Giỏ hàng</ListItem>
+          <ListItem>Đăng ký</ListItem>
+          <ListItem>Đăng nhập</ListItem>
+          <ListItem>Macbook</ListItem>
+          <ListItem>Iphone</ListItem>
+          <ListItem>Laptop Gaming</ListItem>
+          <ListItem>Laptop văn phòng</ListItem>
         </List>
       </Center>
       <Right>
-        <Title>Contact</Title>
+        <Title>Thông tin liên hệ</Title>
         <ContactItem>
-          <Room style={{marginRight:"10px"}}/> 622 Dixie Path , South Tobinchester 98336
+          <Room style={{ marginRight: "10px" }} />
+          14/08 Cách Mạng Tháng 8, TP. Hồ Chí Minh
         </ContactItem>
         <ContactItem>
-          <Phone style={{marginRight:"10px"}}/> +1 234 56 78
+          <Phone style={{ marginRight: "10px" }} /> +889 247 889
         </ContactItem>
         <ContactItem>
-          <MailOutline style={{marginRight:"10px"}} /> contact@lama.dev
+          <MailOutline style={{ marginRight: "10px" }} /> musetech@gmail.com
         </ContactItem>
-        <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
+        <Thankful>
+          <Favorite style={{ marginRight: "10px" }}/> Trân thành cảm ơn quý khách
+        </Thankful>
       </Right>
     </Container>
   );

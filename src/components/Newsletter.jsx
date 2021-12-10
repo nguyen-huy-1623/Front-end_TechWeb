@@ -42,17 +42,17 @@ const Input = styled.input`
 const Button = styled.button`
   flex: 1;
   border: none;
-  background-color: teal;
+  background-color: crimson;
   color: white;
 `;
 
 const Newsletter = () => {
   return (
     <Container>
-      <Title>Newsletter</Title>
-      <Desc>Get timely updates from your favorite products.</Desc>
+      <Title>Thư điện tử</Title>
+      <Desc>Nhận thông tin khuyến mãi mới nhất từ MuseTech</Desc>
       <InputContainer>
-        <Input placeholder="Your email" />
+        <Input placeholder="Địa chỉ email" />
         <Button>
           <Send />
         </Button>
