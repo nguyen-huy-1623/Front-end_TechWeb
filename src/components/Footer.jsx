@@ -88,7 +88,7 @@ const Footer = () => {
   return (
     <Container>
       <Left>
-        <Logo>LAMA.</Logo>
+        <Logo>MuseTech</Logo>
         <Desc>
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
@@ -112,22 +112,20 @@ const Footer = () => {
       <Center>
         <Title>Useful Links</Title>
         <List>
-          <ListItem>Home</ListItem>
-          <ListItem>Cart</ListItem>
-          <ListItem>Man Fashion</ListItem>
-          <ListItem>Woman Fashion</ListItem>
-          <ListItem>Accessories</ListItem>
-          <ListItem>My Account</ListItem>
-          <ListItem>Order Tracking</ListItem>
-          <ListItem>Wishlist</ListItem>
-          <ListItem>Wishlist</ListItem>
+          <ListItem>Trang chủ</ListItem>
+          <ListItem>Giỏ hàng</ListItem>
+          <ListItem>Điện thoại</ListItem>
+          <ListItem>Laptop</ListItem>
+          <ListItem>Tài khoản</ListItem>
+          <ListItem>Theo dõi đơn hàng</ListItem>
+          <ListItem>Yêu thích</ListItem>
           <ListItem>Terms</ListItem>
         </List>
       </Center>
       <Right>
-        <Title>Contact</Title>
+        <Title>Liên hệ</Title>
         <ContactItem>
-          <Room style={{marginRight:"10px"}}/> 622 Dixie Path , South Tobinchester 98336
+          <Room style={{marginRight:"10px"}}/> Khu phố 6, phường Linh Trung, thành phố Thủ Đức, TP.HCM
         </ContactItem>
         <ContactItem>
           <Phone style={{marginRight:"10px"}}/> +1 234 56 78

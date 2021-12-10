@@ -76,7 +76,7 @@ const Navbar = () => {
         <Left>
           <Language>EN</Language>
           <SearchContainer>
-            <Input placeholder="Search" />
+            <Input placeholder="Tìm kiếm" />
             <Search style={{ color: "gray", fontSize: 16 }} />
           </SearchContainer>
         </Left>
@@ -84,8 +84,8 @@ const Navbar = () => {
           <Logo>MuseTech</Logo>
         </Center>
         <Right>
-          <MenuItem>REGISTER</MenuItem>
-          <MenuItem>SIGN IN</MenuItem>
+          <MenuItem>ĐĂNG KÝ</MenuItem>
+          <MenuItem>ĐĂNG NHẬP</MenuItem>
           <MenuItem>
             <Badge badgeContent={4} color="primary">
               <ShoppingCartOutlined style={{ color: "crimson" }}/>
