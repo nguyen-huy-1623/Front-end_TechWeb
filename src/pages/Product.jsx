@@ -32,7 +32,7 @@ const InfoContainer = styled.div`
 `;
 
 const Title = styled.h1`
-  font-weight: 200;
+  font-weight: 400;
 `;
 
 const Desc = styled.p`
@@ -67,7 +67,7 @@ const FilterColor = styled.div`
   height: 20px;
   border-radius: 50%;
   background-color: ${(props) => props.color};
-  margin: 0px 5px;
+  margin: 0px 10px;
   cursor: pointer;
 `;
 
@@ -122,26 +122,21 @@ const Product = () => {
       <Border />
       <Wrapper>
         <ImgContainer>
-          <Image src="https://i.ibb.co/S6qMxwr/jean.jpg" />
+          <Image src="https://i.ibb.co/vkMPbMx/iphone-13-black-1.png"/>
         </ImgContainer>
         <InfoContainer>
-          <Title>Denim Jumpsuit</Title>
+          <Title>Điện thoại iPhone 13 128 GB</Title>
           <Desc>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            venenatis, dolor in finibus malesuada, lectus ipsum porta nunc, at
-            iaculis arcu nisi sed mauris. Nulla fermentum vestibulum ex, eget
-            tristique tortor pretium ut. Curabitur elit justo, consequat id
-            condimentum ac, volutpat ornare.
+            iPhone 13 trang bị bộ nhớ trong 128 GB dung lượng lý tưởng cho phép bạn thỏa thích lưu trữ mọi nội dung theo ý muốn mà không lo nhanh đầy bộ nhớ.
+            Thiết kế nguyên khối vuông vắn như tiền nhiệm, khung viền được làm từ nhôm cùng mặt lưng kính sang trọng, cao cấp.
           </Desc>
-          <Price>$ 20</Price>
+          <Price>24.990.000 VND</Price>
           <FilterContainer>
             <Filter>
-              <FilterTitle>Color</FilterTitle>
+              <FilterTitle>Màu sắc</FilterTitle>
               <FilterColor color="black" />
-              <FilterColor color="darkblue" />
-              <FilterColor color="gray" />
             </Filter>
-            <Filter>
+            {/* <Filter>
               <FilterTitle>Size</FilterTitle>
               <FilterSize>
                 <FilterSizeOption>XS</FilterSizeOption>
@@ -150,7 +145,7 @@ const Product = () => {
                 <FilterSizeOption>L</FilterSizeOption>
                 <FilterSizeOption>XL</FilterSizeOption>
               </FilterSize>
-            </Filter>
+            </Filter> */}
           </FilterContainer>
           <AddContainer>
             <AmountContainer>
@@ -158,7 +153,7 @@ const Product = () => {
               <Amount>1</Amount>
               <Add />
             </AmountContainer>
-            <Button>ADD TO CART</Button>
+            <Button>THÊM VÀO GIỎ</Button>
           </AddContainer>
         </InfoContainer>
       </Wrapper>

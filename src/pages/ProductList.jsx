@@ -41,9 +41,9 @@ const ProductList = () => {
     <Container>
       <Navbar />
       <Border />
-      <Title>Dresses</Title>
+      <Title>Điện thoại</Title>
       <FilterContainer>
-        <Filter>
+        {/* <Filter>
           <FilterText>Filter Products:</FilterText>
           <Select>
             <Option disabled selected>
@@ -66,13 +66,13 @@ const ProductList = () => {
             <Option>L</Option>
             <Option>XL</Option>
           </Select>
-        </Filter>
+        </Filter> */}
         <Filter>
-          <FilterText>Sort Products:</FilterText>
+          <FilterText>Sắp xếp theo</FilterText>
           <Select>
-            <Option selected>Newest</Option>
-            <Option>Price (asc)</Option>
-            <Option>Price (desc)</Option>
+            <Option selected>Mới nhất</Option>
+            <Option>Giá tăng dần</Option>
+            <Option>Giá giảm dần</Option>
           </Select>
         </Filter>
       </FilterContainer>
